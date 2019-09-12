@@ -1,0 +1,81 @@
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url("../img/logo-munin.svg") 50% 50% no-repeat rgb(255, 174, 166);
+    opacity: 1.0;
+}
+
+
+/*Variaveis de cor*/
+
+:root {
+    --principal-color: #FF8A7A;
+    --laranjaescuro-color: #ED6E5B;
+    --laranjaclaro-color: #FFAEA6;
+}
+
+html,
+#geral {
+    background-color: var(--principal-color);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../img/bolas-fundo.svg") !important;
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: auto;
+}
+
+h1,
+p {
+    color: whitesmoke
+}
+
+p {
+    font-size: 2vh;
+}
+
+input {
+    background-color: var(--laranjaescuro-color) !important;
+    border-color: var(--laranjaescuro-color) !important;
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    color: whitesmoke !important;
+}
+
+::placeholder {
+    color: whitesmoke !important;
+    opacity: 1;
+    font-size: 2vh;
+    /* Firefox */
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: whitesmoke !important;
+    font-size: 2vh;
+}
+
+ ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: whitesmoke !important;
+    font-size: 2vh;
+}
+
+.btn-primary {
+    border-color: var(--laranjaclaro-color) !important;
+    background-color: var(--laranjaclaro-color) !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    font-size: 2vh !important;
+}
+
+.btn-primary:hover {
+    border-color: #D18F88 !important;
+    background-color: #D18F88 !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    font-size: 2vh !important;
+}
