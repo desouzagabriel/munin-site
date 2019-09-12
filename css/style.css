@@ -79,3 +79,46 @@ input {
     border-bottom-right-radius: 15px !important;
     font-size: 2vh !important;
 }
+
+#h1-titulo {
+    font-weight: bold;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #h1-titulo {
+        text-align: center;
+        font-size: 6.75vh;
+    }
+    #p-texto-avise {
+        text-align: center;
+        font-size: 2.75vh;
+    }
+
+    #bolinhas-abaixo-botao {
+        height: 0px;
+    }
+
+    #formulario-munin {
+        margin-top: 25em;
+    }
+
+    #ilustracao-munin {
+        margin-top: -42.75em;
+    }
+    .redes {
+        height: 0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

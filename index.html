@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147730031-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-147730031-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,7 +19,8 @@
 
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
 </head>
@@ -23,31 +34,36 @@
                 <div class="row">
                     <!-- Logo e Redes Sociais -->
                     <div class="col-lg-8 offset-lg-2 mb-5">
-                        <img src="img/logo-munin.svg" alt="Logo Munin" class="col-lg-2 mt-5">
+                        <img src="img/logo-munin.svg" alt="Logo Munin" class=" mt-5">
                         <a href="mailto:contato@munindesign.com.br" target="_blank" rel="noopener noreferrer">
-                            <img src="img/icon-email.svg" alt="Logo Email" class="mt-5 ml-2 float-right">
+                            <img src="img/icon-email.svg" alt="Logo Email" class="mt-5 ml-2 float-right redes">
                         </a>
                         <a href="https://www.instagram.com/munindesign/" target="_blank" rel="noopener noreferrer">
-                            <img src="img/icon-instagram.svg" alt="Logo Instagram" class="mt-5 float-right">
+                            <img src="img/icon-instagram.svg" alt="Logo Instagram" class="mt-5 float-right redes">
                         </a>
                     </div>
                     <!-- Imagem principal e Envio de Email -->
                     <div class="col-lg-8 offset-lg-2 mt-5">
                         <div class="row">
                             <section class="col-lg-4">
-                                <h1>Site em construção</h1>
-                                <p class="mt-5">Avise-me quando estiver pronto:</p>
-                                <form action="mailto:contato@munindesign.com.br" method="post" enctype="text/plain">
+                                <h1 id="h1-titulo">Site em construção</h1>
+                                <form id="formulario-munin" action="mailto:contato@munindesign.com.br" method="post"
+                                    enctype="text/plain">
+                                    <p id="p-texto-avise" class="mt-5">Avise-me quando estiver pronto:</p>
                                     <div class="input-group">
-                                        <input type="text" name="mail" class="form-control" placeholder="Insira seu email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <input type="text" name="mail" class="form-control"
+                                            placeholder="Insira seu email" aria-label="Recipient's username"
+                                            aria-describedby="basic-addon2">
                                         <div class="input-group-append">
                                             <button class="btn btn-primary" type="submit">ENVIAR</button>
                                         </div>
                                     </div>
                                 </form>
-                                <img src="img/bolinhas-abaixo-botao.svg" alt="Bolinhas abaixo do botão" class="mt-5">
+                                <img id="bolinhas-abaixo-botao" src="img/bolinhas-abaixo-botao.svg"
+                                    alt="Bolinhas abaixo do botão" class="mt-5">
                             </section>
-                            <img src="img/ilustracao.svg" alt="Ilustração do desenho de um site" class="col-lg-8">
+                            <img id="ilustracao-munin" src="img/ilustracao.svg" alt="Ilustração do desenho de um site"
+                                class="col-lg-8">
                         </div>
 
                     </div>
@@ -57,13 +73,19 @@
     </div>
 
     <!-- jQuery primeiro, depois Popper.js, por fim o Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript">
-        $(window).load(function() {
+        $(window).load(function () {
             $(".loader").fadeOut("slow");
         });
     </script>
