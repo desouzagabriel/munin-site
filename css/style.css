@@ -25,8 +25,8 @@ body {
   font-family: "Montserrat", sans-serif;
   background-image: url("../img/background.svg");
   background-repeat: repeat;
-  background-position: initial;
-  background-size: auto;
+  background-position: cover;
+  background-size: cover;
 }
 
 /* FONTES */
