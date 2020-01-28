@@ -3,14 +3,15 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147730031-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154467809-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'UA-147730031-1');
+        gtag('config', 'UA-154467809-1');
     </script>
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,9 +26,8 @@
     <meta NAME="RATING" CONTENT="general">
     <meta NAME="DISTRIBUTION" CONTENT="global">
     <meta NAME="LANGUAGE" CONTENT="PT">
-
-    <title>Munin Design</title>
-
+    <title>Munin Design | Empresa especializada em Design</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="favicon_io/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
@@ -37,7 +37,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -45,42 +45,22 @@
 
     <div id="geral" class="container-fluid">
         <div class="row">
-            <div class="col-lg-12">
+            <div id="geral" class="col-lg-12 offset-lg-0 col-8 offset-2">
                 <div class="row">
-                    <!-- Logo e Redes Sociais -->
-                    <div class="col-lg-8 offset-lg-2 mb-5">
-                        <img src="img/logo-munin.svg" alt="Logo Munin" class=" mt-5">
-                        <a href="mailto:contato@munindesign.com.br" target="_blank" rel="noopener noreferrer">
-                            <img src="img/icon-email.svg" alt="Logo Email" class="mt-5 ml-2 float-right redes">
-                        </a>
-                        <a href="https://www.instagram.com/munindesign/" target="_blank" rel="noopener noreferrer">
-                            <img src="img/icon-instagram.svg" alt="Logo Instagram" class="mt-5 float-right redes">
-                        </a>
-                    </div>
-                    <!-- Imagem principal e Envio de Email -->
-                    <div class="col-lg-8 offset-lg-2 mt-5">
-                        <div class="row">
-                            <section class="col-lg-4">
-                                <h1 id="h1-titulo">Site em construção</h1>
-                                <form id="formulario-munin" action="mailto:contato@munindesign.com.br" method="post"
-                                    enctype="text/plain">
-                                    <p id="p-texto-avise" class="mt-5">Avise-me quando estiver pronto:</p>
-                                    <div class="input-group">
-                                        <input type="text" name="mail" class="form-control"
-                                            placeholder="Insira seu email" aria-label="Recipient's username"
-                                            aria-describedby="basic-addon2">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary" type="submit">ENVIAR</button>
-                                        </div>
-                                    </div>
-                                </form>
-                                <img id="bolinhas-abaixo-botao" src="img/bolinhas-abaixo-botao.svg"
-                                    alt="Bolinhas abaixo do botão" class="mt-5">
-                            </section>
-                            <img id="ilustracao-munin" src="img/ilustracao.svg" alt="Ilustração do desenho de um site"
-                                class="col-lg-8">
-                        </div>
+                    <!-- BLOCO DE TEXTO -->
+                    <div id="bloco-texto" class="col-lg-8 offset-lg-2" data-aos="zoom-in">
+                        <section>
+                            <div id="bloco-texto" class="class-lg-10 offset-lg-1">
+                                <img id="logo-munin" src="img/logo-munin.svg" alt="Logo Munin">
+                                <h1 id="h1-titulo">Estamos quase lá.</h1>
+                                <p id="p-titulo">Site em construção</p>
+                                <p id="p-footer">Entre em contato conosco pelo <a
+                                        href="mailto:contato@munindesign.com.br">contato@munindesign.com.br</a> </p>
+                            </div>
 
+                            <img id="ilustracao-munin" class="col-lg-12" src="img/ilustracao.svg"
+                                alt="Ilustração do desenho de um site">
+                        </section>
                     </div>
                 </div>
             </div>
@@ -97,12 +77,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript">
         $(window).load(function () {
             $(".loader").fadeOut("slow");
         });
+    </script>
+
+    <script>
+        AOS.init();
     </script>
 </body>
 
