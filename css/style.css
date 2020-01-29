@@ -39,6 +39,12 @@ a {
 /* GERAL */
 #geral {
   height: 48vw;
+  background-color: var(--principal-color);
+  font-family: "Montserrat", sans-serif;
+  background-image: url("../img/background.svg");
+  background-repeat: repeat;
+  background-position: cover;
+  background-size: cover;
 }
 
 #logo-munin {
@@ -297,6 +303,52 @@ a {
   }
   #p-footer {
     margin-top: 465px;
+    height: 48px;
+    width: 571px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 48px;
+  }
+  #ilustracao-munin {
+    position: absolute;
+    top: 33px;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2562px) {
+  /* GERAL */
+  #geral {
+    height: 50vw;
+  }
+  #logo-munin {
+    margin-top: 96px;
+    height: 40px;
+    width: 152px;
+  }
+  #h1-titulo {
+    margin-top: 150px !important;
+    height: 216px;
+    width: 350px;
+    font-family: "Montserrat";
+    font-size: 72px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+    line-height: 108px;
+  }
+  #p-titulo {
+    margin-top: 10px;
+    height: 48px;
+    width: 321px;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 48px;
+  }
+  #p-footer {
+    margin-top: 625px;
     height: 48px;
     width: 571px;
     font-family: "Montserrat";
